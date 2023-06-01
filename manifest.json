@@ -1,0 +1,52 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "UUID",
+    "description": "Generate UUIDs in different styles",
+    "developer_name": "Ingo Siebert",
+    "icon": "images/uuid.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "uuid_keyword",
+            "type": "keyword",
+            "name": "UUID",
+            "default_value": "uuid"
+        },
+        {
+            "id": "uuid_uppercase",
+            "type": "select",
+            "name": "Upper-case",
+            "description": "UUIDs are generated with upper-case letters",
+            "options": [
+                {
+                    "value": "True",
+                    "text": "Yes"
+                },
+                {
+                    "value": "False",
+                    "text": "No"
+                }
+            ],
+            "default_value": "False"
+        },
+        {
+            "id": "uuid_remove_hyphons",
+            "type": "select",
+            "name": "Remove hyphons",
+            "description": "Removes the hyphons from UUIDs",
+            "options": [
+                {
+                    "value": "True",
+                    "text": "Yes"
+                },
+                {
+                    "value": "False",
+                    "text": "No"
+                }
+            ],
+            "default_value": "False"
+        }
+    ]
+}

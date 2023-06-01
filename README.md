@@ -1,12 +1,11 @@
-# ulauncher-uuid
-Configurable UUID generator for [ULauncher](https://ulauncher.io)
+This project is a configurable UUID generator extension for [ULauncher](https://ulauncher.io)
 
-## configuration option
+## Configuration options
 
 * upper/lower case
 * hyphons
 
-## how to use it
+## Usage
 
 TODO
 
